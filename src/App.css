@@ -1,8 +1,11 @@
 body{
-  background-color: aquamarine;
+  background-color:black;
+  color: white;
+  
 }
 .App {
   text-align: center;
+  padding: 40px;
 }
 
 .App-logo {

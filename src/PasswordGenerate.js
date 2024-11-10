@@ -45,7 +45,7 @@ function PasswordGenerate() {
 <>
 <h1 className='mt-3'>Generate Your Password here</h1>
      <Container fluid className='d-flex align-items-center justify-content-center' style={{minHeight:'100vh'}}>
-     <div className=' bg-primary p-5 border rounded-3' style={{width:'500px',height:'400px'}}>
+     <div className='p-5 border rounded-3' style={{width:'500px',height:'400px'}}>
 
      <div className='d-flex align-items-center justify-content-between ms-3 mb-2'>
         <input type="text" value={showPass}  className='fs-5' /><Button variant='light' onClick={handleCopy}>Copy</Button>{copied && <span className='text-danger'>Copied</span>}
